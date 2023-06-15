@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pharmacy</h1>
+      </header>
+    
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Our Medicines</a>
+            <ul>
+              <li><a href="#">Fever</a></li>
+              <li><a href="#">Muscle Pains</a></li>
+              <li><a href="#">Cold &amp; Cough</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Health Care</a>
+            <ul>
+              <li><a href="#">Baby Care</a></li>
+              <li><a href="#">Skin Care</a></li>
+              <li><a href="#">Home Care</a></li>
+              <li><a href="#">Personal Care</a></li>
+              <li><a href="#">Pet Care</a></li>
+            </ul>
+          </li>
+          <li><a href="Labtest.html">Lab Test</a></li>
+          
+        </ul>
+      </nav>
+    
+    <section class="lab-test">
+        <h2>Lab Test Booking</h2>
+        <form>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+  
+          <label for="test">Select Test:</label>
+          <select id="test" name="test" required>
+            <option value="">Select a test</option>
+            <option value="blood">Blood Test</option>
+            <option value="urine">Urine Test</option>
+            <option value="xray">X-ray</option>
+            <!-- Add more options here -->
+          </select>
+  
+          <label for="date">Preferred Date:</label>
+          <input type="date" id="date" name="date" required>
+  
+          <label for="message">Additional Message:</label>
+          <textarea id="message" name="message"></textarea>
+  
+          <input type="submit" value="Book Now">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Pharmacy. All rights reserved. Only for demonstration purposes.</p>
+      </footer>
+</body>
+</html>
